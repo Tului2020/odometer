@@ -1,1 +1,1 @@
-Please open index.html and type number into input
+Please open index.html and type number into input and press 'Enter' to see odometer reading
