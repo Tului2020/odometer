@@ -1,26 +1,32 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid red; */
+  height: 100vh;
 }
 
 #odometer {
   border: 1px solid red;
-  width: 200px;
-  height: 20px;
+  display: flex;
+  margin-top: 10px;
+
   overflow: hidden;
   /* transition-duration: 500ms; */
 }
 
 
 
-.first-num {
-  transition-duration: 100ms;
-  border: 1px solid green;
-  width: 12px;
+.num {
+  transition-duration: 300ms;
+  /* border: 1px solid green; */
+  width: 20px;
+  height: 340px;
 }
 
-.first-num:hover {
-  transform: translateY(-100%);
+
+.no-display {
+  display: none;
 }
 
