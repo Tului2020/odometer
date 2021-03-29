@@ -1,1 +1,1 @@
-readme
+Please open index.html and type number into input
