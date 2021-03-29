@@ -8,4 +8,19 @@ body {
   border: 1px solid red;
   width: 200px;
   height: 20px;
+  overflow: hidden;
+  /* transition-duration: 500ms; */
 }
+
+
+
+.first-num {
+  transition-duration: 100ms;
+  border: 1px solid green;
+  width: 12px;
+}
+
+.first-num:hover {
+  transform: translateY(-100%);
+}
+

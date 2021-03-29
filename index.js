@@ -1,8 +1,17 @@
-
-
 let odometerDiv = document.getElementById('odometer')
-console.log(odometerDiv)
-odometerDiv.innerHTML = 'Working'
+odometerDiv.innerHTML = ''
+
+let firstNum = document.createElement('div')
+firstNum.classList.add('first-num')
+
+
+for (let i = 1; i < 10; i++) {
+  let tempDiv = document.createElement('div')
+  tempDiv.innerHTML = i
+  firstNum.appendChild(tempDiv)
+}
+
+odometerDiv.appendChild(firstNum)
 
 
 
