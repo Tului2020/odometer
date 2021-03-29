@@ -12,7 +12,7 @@ inputComponent.type = 'number'
 let odometerWidth = 210; // pixels
 let odometerHeight = 40; // pixels
 let odometerFontSize = 30; // pixels
-let odometerLength = Math.floor(odometerWidth / odometerFontSize) * 2
+let odometerLength = Math.floor(odometerWidth / 20) 
 let odometerArray = Array(odometerLength).fill(0)
 
 
@@ -34,7 +34,6 @@ for (let idx = 0; idx < odometerLength; idx++) {
     tempEl.innerHTML = num
     el.appendChild(tempEl)
   }
-  // console.log(el)
   
   odometerDiv.appendChild(el)
 }

@@ -3,7 +3,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
   height: 100vh;
 }
 
@@ -11,16 +10,14 @@ body {
   border: 1px solid red;
   display: flex;
   margin-top: 10px;
-
+  justify-content: flex-end;
   overflow: hidden;
-  /* transition-duration: 500ms; */
 }
 
 
 
 .num {
   transition-duration: 300ms;
-  /* border: 1px solid green; */
   width: 20px;
   height: 340px;
 }
